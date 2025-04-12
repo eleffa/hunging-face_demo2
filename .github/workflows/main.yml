@@ -16,17 +16,13 @@ jobs:
 
       - name: Set up Git config
         run: |
-          git config --global user.email "your@email.com"
+          git config --global user.email "you@example.com"
           git config --global user.name "Your Name"
 
       - name: Add Hugging Face remote
         run: |
-          git remote add space https://user:${HF_TOKEN}@huggingface.co/spaces/eleffa/demo2
-        env:
-          HF_TOKEN: ${{ secrets.HF }}
+          git remote add space https://user:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/eleffa/demo2
 
       - name: Push to Hugging Face Hub
         run: |
           git push --force space main
-        env:
-          HF_TOKEN: ${{ secrets.HF }}
