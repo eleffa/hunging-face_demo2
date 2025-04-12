@@ -11,7 +11,7 @@ license: cc
 ---
 
 
-[![Sync to Hugging Face hub](https://github.com/nogibjj/hugging-face/actions/workflows/main.yml/badge.svg)](https://github.com/eleffa/hugging-face_demo2/actions/workflows/main.yml)
+[![Sync to Hugging Face hub](https://github.com/nogibjj/hugging-face/actions/workflows/main.yml/badge.svg)](https://github.com/eleffa/hunging-face_demo2/actions/workflows/main.yml)
 
 
 [Try Demo Text Summarization Here](https://huggingface.co/spaces/eleffa/demo)
